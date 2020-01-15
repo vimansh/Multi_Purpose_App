@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viman.finalprojectapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    >
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sign_up" />
+        <activity android:name=".calculator" />
+        <activity android:name=".list_of_fuction" />
+        <activity android:name=".media_player" />
+        <activity android:name=".quizq1" />
+        <activity android:name=".browser" />
+        <activity android:name=".magical_mp" />
+        <activity android:name=".quick_access" />
+        <activity android:name=".facebook" />
+        <activity android:name=".gmail" />
+        <activity android:name=".google" />
+        <activity android:name=".youtube" />
+        <activity android:name=".quiz2" />
+        <activity android:name=".quiz3" />
+        <activity android:name=".quiz4" />
+        <activity android:name=".quizresult" />
+        <activity android:name=".camera" />
+        <activity android:name=".text_to_speech"></activity>
+    </application>
+
+</manifest>
